@@ -1,0 +1,81 @@
+web development?
+
+web design?
+
+website ? - collection of webpages and multimedia packages
+
+html css javascript jquery bootstrap 
+f.e
+
+mysql php b.e
+
+ajax json api 
+
+--------------------------
+
+mern stack  - mongodb express reactjs nodejs
+
+meanstack - angularjs
+
+python django
+
+python flask 
+
+next js 
+
+service based
+
+product based 
+
+----
+
+html - hypertext markup language
+
+<p></p> - tag
+
+markup - predefined 
+
+structure of html:
+
+<!DOCTYPE html> - dtd 
+<head>
+<title></title> 
+<meta></meta>
+<link></link> - css
+<script></script> - js
+
+</head>
+<body>
+
+
+
+</body>
+</html>
+
+
+
+<p attributes>hi - innerHTML</p>
+
+file - webp html svg - dont
+
+jpeg jpg ifif jfif png 
+
+
+foldername/filename.ext
+
+
+stylesheet - css , less , sass, stylus
+
+css - inline internal external 
+
+properties
+
+
+
+
+
+
+
+
+
+

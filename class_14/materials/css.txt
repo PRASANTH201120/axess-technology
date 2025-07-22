@@ -1,0 +1,74 @@
+stylesheet - css , sass, less , stylus
+
+css - inline internal external
+
+id - unique #
+class - common  .
+
+
+
+syntax:
+
+1, color: red; - text color
+prop name : prop value;
+
+2, background-color: red;
+
+div - box - float , width
+
+3, float: left , right
+
+4, width: % em rem px
+16px - 1em
+0.5rem
+
+min-width
+max-width
+
+5, height: % em px rem
+min-height
+max-height
+
+6,text-align:center left right justify 
+
+7, text-transform: uppercase AGFFG
+                   lowercase dfdfdf
+                    capitialize Animal
+
+8,text-decoration: none underline
+
+9,border:1px solid red
+dotted ....
+dashed  ----------
+
+10,border-radius: 5px
+50% - circle
+
+11,border-width: 0px 1px 0px 1px t r b l (trb exam)
+
+
+12, padding: 1em (space inside div) - all
+1em 2em tb rl
+1em 2em 3em 4em trbl
+
+13,margin:1em (space outisde div) - all
+1em 2em tb rl
+1em 2em 3em 4em trbl
+
+14,line-height:
+
+15,word-spacing:
+
+16, letter-spacing:
+
+17, font-family:
+font-size:
+font-weight:
+
+18.background-image:url('')
+background-repeat: no-repeat repeat
+background-size:100% 100% - width height
+
+
+
+

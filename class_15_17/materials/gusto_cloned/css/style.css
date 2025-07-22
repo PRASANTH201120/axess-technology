@@ -1,0 +1,68 @@
+body{padding:0 auto;margin:0 auto;}
+.header {
+  float: left;
+  width: 100%;
+ 
+  color: white;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  margin: 0em 3em;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+}
+.herosection {
+  float: left;
+  width: 100%;
+ 
+  color: white;
+  text-align: center;
+  
+}
+
+.herosection h2 {
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-size: 10em;
+}
+
+.herosection p{font-family: "Open Sans", sans-serif;
+  
+  font-size: 24px;
+  font-weight: 400;}
+  
+  .header_combined {
+  float: left;
+  width: 100%;
+ /* * background-image: url('././images/intro-bg.jpg');* */
+  
+   background:linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url("../images/intro-bg.jpg");
+   
+  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+.header1_left {
+  float: left;
+  width: 50%;
+  background: red;
+  text-align: left;
+}
+
+.header1 {
+  float: left;
+  width: 100%;
+}
+
+.header1_right {
+  float: right;
+  width: 50%;
+  background: purple;
+  text-align: center;
+}
