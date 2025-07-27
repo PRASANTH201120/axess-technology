@@ -332,7 +332,6 @@ body {
 }
 .cont-1,
 .cont-2 {
-  /* float: left; */
   display: inline-block;
   width: 33%;
 }
@@ -382,8 +381,7 @@ body {
 }
 
 ::placeholder {
-  color: ff;
-  opacity: 1; /* Firefox */
+  font-size: 25px;
 }
 
 /* footer */
@@ -421,7 +419,6 @@ body {
   /* border-radius: 50%; */
 }
 
-
 @media (max-width: 767px) {
   .nav_bar li {
     display: block;
@@ -446,7 +443,6 @@ body {
     width: 100%;
     text-align: center;
   }
-
 
   .story-sec2 p {
     padding: 0 1em;
@@ -481,7 +477,7 @@ body {
     height: 100%;
     padding: 20px 0px;
     margin: 0px;
-}
+  }
 
   .message-textarea {
     width: 100%;
@@ -489,7 +485,5 @@ body {
 
   .chef-sec1 {
     width: 100%;
+  }
 }
-}
-
-

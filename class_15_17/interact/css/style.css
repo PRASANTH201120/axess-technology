@@ -543,8 +543,7 @@ body {
 }
 
 ::placeholder {
-  color: ff;
-  opacity: 1; /* Firefox */
+  opacity: 1; 
 }
 
 /* footer */
