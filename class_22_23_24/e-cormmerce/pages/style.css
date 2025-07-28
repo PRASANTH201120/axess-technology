@@ -417,48 +417,6 @@ h1 {
   color: #ccc;
 }
 
-.color-select label {
-  display: block;
-  margin-bottom: 0.5em;
-}
-
-.color-circle {
-  width: 25px;
-  height: 25px;
-  background-color: #1e3a8a;
-  border: 2px solid white;
-  border-radius: 50%;
-}
-
-.quantity label {
-  display: block;
-  margin-bottom: 0.5em;
-}
-
-.qty-box {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-}
-
-.qty-box button {
-  background: none;
-  border: 1px solid white;
-  color: white;
-  padding: 0.3em 0.8em;
-  font-size: 1.2em;
-  cursor: pointer;
-}
-
-.qty-box input {
-  width: 40px;
-  text-align: center;
-  border: 1px solid white;
-  background: transparent;
-  color: white;
-  font-size: 1em;
-}
-
 .actions {
   display: flex;
   gap: 1em;
