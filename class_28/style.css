@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(47, 116, 255);
+    display: flex;
+    justify-content: center;
+    margin: 10em 0em;
+    
+}
+
+#img {
+    width: 100vh;
+    /* background-color: rgb(47, 116, 255); */
+    background-color: rgb(146, 91, 65);
+   
+}
+
+.controls{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.controls button{
+    font-size: 25px;
+    padding: 2px 10px;
+    border-radius: 8px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  /* position: sticky !important; */
+  top: 0;
+  left: 0;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  /* background: black;  */
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #28f700 !important;
+}
+#navbarSupportedContent a {
+  color: rgb(255, 255, 255) !important;
+  border-bottom: 2px solid transparent;
+  text-transform: capitalize;
+}
+
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid #28f700;
+}
+#navbarSupportedContent button {
+  background: #28f700;
+  color: aliceblue;
+  width: 5em;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(./images/hero-grocery.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#home h1 {
+  font-size: 12em;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #28f700;
+}
+
+/* about */
+#about-us {
+}
+#about-us img {
+  width: 50%;
+  margin-left: 10em;
+}
+#about-us h1 {
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+#about-us p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* shop */
+#shop {
+  background: #ecececb4;
+}
+#shop h1 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#product img {
+  width: 200px;
+  height: 200px;
+}
+.card {
+  width: 250px;
+  height: 300px;
+  background: #eeeeee !important;
+  border: none !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.177), inset 4px 4px 10px white;
+  border-radius: 20px !important;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 60px;
+    transition: 2s;
+
+}
+.btn-primary {
+  background-color: #28f700 !important;
+  color: black !important;
+}
+.card:hover {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.224),
+    inset -4px -4px 10px white;
+    transition: 2s;
+}
+
+#contact img{
+  
+  width: 100vh;
+  border-radius: 20px;
+  
+}
