@@ -6,20 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body id="img-color">
     <section>
       <div>
-        <img src="./images/pngimg.com - ford_PNG102954.png" alt="" id="img"/>
+        <img src="./images/pngimg.com - ford_PNG102954.png" alt="" id="img" />
       </div>
       <div class="controls">
-        <button onclick="red()" >red</button>
+        <button onclick="red()">red</button>
         <button onclick="blue()">blue</button>
         <button onclick="green()">green</button>
         <button onclick="image()" ondblclick="image1()">image</button>
-        <button onclick="document.getElementById('img').style.display='none'"
-                ondblclick="document.getElementById('img').style.display='block'">disable</button>
-      </div>
-    </section>
+        <button
+        onclick="document.getElementById('img').style.display='none'"
+        ondblclick="document.getElementById('img').style.display='block'"
+        >
+        disable
+      </button>
+    </div>
+  </section>
 
     <script src="./script.js"></script>
   </body>
