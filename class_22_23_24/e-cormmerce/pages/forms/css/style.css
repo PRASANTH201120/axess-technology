@@ -4,12 +4,15 @@
   --white: #ffffff;
   --white2: #cccccc;
   --link-form: #4f46e5;
-  --black:black;
+  --black: black;
   --left-lin-gradient: linear-gradient(
-    to bottom left,
-    #000000 0%,
-    #1d0b3a 100%
-  );
+      to bottom left,
+      #0000001f 0%,
+      #0000002f 25%,
+      #0000003f 50%,
+      #0000005f 100%
+    ),
+    url("../../../images-ecormmrece/gallery-2.jpg");
 }
 
 * {
@@ -44,6 +47,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background: var(--left-lin-gradient);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 .logo {
@@ -54,6 +60,19 @@ body {
 .logo h1 {
   font-size: 24px;
   font-weight: 700;
+}
+
+.logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.logot {
+  text-transform: uppercase;
+  margin: 0em 5em;
+}
+.logo span {
+  color: rgba(240, 248, 255, 0.507);
 }
 
 .promo h2 {
@@ -157,7 +176,7 @@ input[type="password"] {
   margin-bottom: 1em;
 }
 
-.back-btn{
+.back-btn {
   width: 100%;
   border: 1px solid var(--white2);
   display: inline;

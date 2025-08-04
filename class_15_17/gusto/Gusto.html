@@ -11,31 +11,40 @@
     />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="nav_hero">
-        <!-- header section -->
 
-        <div class="g_head">
-          <ul class="nav_bar">
-            <li><a href="" id="special"></a> Specials</li>
-            <li>About</li>
-            <li>Menu</li>
-            <li>Chef</li>
-            <li>Contact</li>
-          </ul>
-        </div>
+    <!-- to top button -->
+    <button onclick="topFunction()" id="myBtn" >Top</button>
 
-        <!-- herosection -->
+<!-- navbar -->
+    <header class="header topnav"  id="myTopnav">
+          <a href="./Gusto.html">home</a>
+          <a href="#specials">specials</a>
+          <a href="#about">about</a>
+          <a href="./menu.html">menu</a>
+          <a href="#chef">chef</a>
+          <a href="#contact">contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </header>
 
-        <div class="herosec">
+    <!-- hero-secton -->
+    <section>
+      <div class="hero-section">
+        <div class="hero-section-text">
           <h1>Gusto</h1>
           <p>Reservations: (887) 654-3210</p>
         </div>
       </div>
+    </section>
+
+
+
+
 
       <!-- our specials -->
 
-      <div class="spl_title">
+      <div class="spl_title" id="specials">
         <h4>
           our specials
           <hr class="line" />
@@ -92,7 +101,7 @@
 
       <!-- our story -->
 
-      <div class="story">
+      <div class="story" id="about">
         <div class="story-sec1"></div>
         <div class="story-sec2">
           <h3>Our Story</h3>
@@ -357,8 +366,8 @@
 
       <!-- Chef Section -->
 
-      <div class="pagecenter">
-        <div class="chef">
+      <div class="pagecenter" >
+        <div class="chef" id="chef">
           <div class="chef-sec1">
             <h3>
               Meet Our Chef
@@ -386,7 +395,7 @@
 
       <!-- contact -->
 
-      <div class="contant">
+      <div class="contant" id="contact">
         <div class="pagecenter">
           <div class="cont-1">
             <h5>
@@ -443,6 +452,18 @@
         </div>
       </div>
 
+
+          <!-- social bar -->
+    <section>
+      <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <!-- <a href="#" class="google"><i class="fa fa-google"></i></a>  -->
+        <!-- <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+      </div>
+    </section>
+
       <!-- footer -->
 
       <div class="footer">
@@ -457,6 +478,9 @@
           </ul>
         </div>
       </div>
+
+
     </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
